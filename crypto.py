@@ -86,7 +86,7 @@ while True:
     os.system("cls")
     print(f"Day {DAY}\nMoney : {USER_MONEY:.2f}$\n{CRYPTO_NAME} you have : {USER_VALUE}\n{CRYPTO_NAME} value you have : {USER_VALUE*CRYPTO_COST:.2f}$\n\n{CRYPTO_NAME} info :\n\t- Value : {CRYPTO_AVAILABLEVALUE}\n\t- Cost : {CRYPTO_COST:.2f}$\n\t- Total Cost : {CRYPTO_COST*CRYPTO_AVAILABLEVALUE}$")
     if CREDIT_TAKE:
-        print("Don't forget that you have a credit to but!")
+        print("Don't forget that you have a credit to buy!")
     file.write(f"Day {DAY}\nMoney : {USER_MONEY:.2f}\n{CRYPTO_NAME} you have : {USER_VALUE}\n{CRYPTO_NAME} value you have : {USER_VALUE*CRYPTO_COST:.2f}$\n\n{CRYPTO_NAME} info :\n\t- Value : {CRYPTO_AVAILABLEVALUE}\n\t- Cost : {CRYPTO_COST:.2f}$\n\t- Total Cost : {CRYPTO_COST*CRYPTO_AVAILABLEVALUE}$\n")
     choice = input("Choose your action (BUY/SELL/WAIT/GRAPHIC/MINE/SHOP/EXIT/BANK) : ")
     if choice == "BUY":
