@@ -35,7 +35,7 @@ import sys
 CRYPTO_NAME = "BTC"
 CRYPTO_COST = 200
 CRYPTO_AVAILABLEVALUE = 45001
-USER_MONEY = 0
+USER_MONEY = 10000
 COUNTRY = ['France', 'USA' , 'Canada', 'Japan', 'Australia', 'China', 'Russia', 'Germany', 'Algeria']
 
 #################################################################
